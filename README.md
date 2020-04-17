@@ -1,2 +1,2 @@
-# Axoloteam_parcial01-_POO
+# Axoloteam_parcial01_POO
 The axolotl (/ˈæksəlɒtəl/, from Classical Nahuatl: āxōlōtl [aːˈʃoːloːtɬ] (About this soundlisten); plural axolotls or rarely axolomeh; Spanish: Ajolote), Ambystoma mexicanum, also known as the Mexican walking fish, is a neotenic salamander related to the tiger salamander. Although the axolotl is colloquially known as a "walking fish",[4][5] it is not a fish, but an amphibian. The species was originally found in several lakes, such as Lake Xochimilco underlying Mexico City.
