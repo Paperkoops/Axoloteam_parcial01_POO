@@ -1,12 +1,13 @@
 package com.LASA_AEAB.x00038419x00039619;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Empleado {
 
     protected String nombre;
     protected String puesto;
-    protected List<Documento> documentos;
+    protected ArrayList<Documento> documentos = new ArrayList<>();
     protected double salario;
 
     Empleado(String nombre, String puesto, double salario){
@@ -28,7 +29,7 @@ public abstract class Empleado {
     }
 
     public void addDocumento(Documento doc) {
-        this.documentos.add(doc);
+        documentos.add(doc);
     }
 
     public void removeDocumento(String str){
@@ -41,5 +42,35 @@ public abstract class Empleado {
 
     public void setSalario(double salario) {
         this.salario = salario;
+    }
+
+    public static class CalculadoraImpuestos {
+
+        private static double totalRenta = 0;
+        private static double totalISS = 0;
+        private static double totalAFP = 0;
+
+        CalculadoraImpuestos(){
+
+        }
+        public static void agregar5(){
+            totalRenta+=5;
+            System.out.println(totalRenta);
+        }
+
+        public static double calcularPago(Empleado emp){
+            if(emp instanceof ServicioProfesional){
+
+            }else{
+
+            }
+            return 0.0;
+        }
+
+        public static String mostrarTotales(){
+
+            return "asd";
+        }
+
     }
 }
