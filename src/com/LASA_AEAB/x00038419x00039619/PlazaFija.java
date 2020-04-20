@@ -16,4 +16,14 @@ public class PlazaFija extends Empleado {
             this.extension = extension;
     }
 
+    @Override
+    public String toString() {
+        return  System.lineSeparator() +
+                "- Tipo Empleado: Plaza Fija" + System.lineSeparator() +
+                "- Extension: " + extension + System.lineSeparator() +
+                "- Nombre: " + nombre + System.lineSeparator() +
+                "- Puesto: " + puesto + System.lineSeparator() +
+                "- Documentos: " + documentos.size() + System.lineSeparator() +
+                "- Salario: " + salario + System.lineSeparator();
+    }
 }
